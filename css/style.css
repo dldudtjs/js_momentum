@@ -1,3 +1,75 @@
 .hidden {
-    display: none;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: none;
+}
+
+body {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #5d5d5d;
+}
+
+/* form#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #737373;
+}
+
+ul#todo-list {
+  width: 150px;
+  margin-left: -90px;
+}
+
+p span{
+  margin: 10px;
+  left: 0px;
+}
+
+#quote {
+  position: fixed;
+  top: 820px;
+  right: 100px;
+  width: 800px;
+  height: 500px;
+  color: #737373;
+}
+
+#wish {
+  position: fixed;
+  top: 270px;
+  right: 100px;
+  width: 800px;
+  height: 500px;
+  color: #737373;
+}
+
+img {
+  position: fixed;
+  top: 300px;
+  right: 500px;
+  width: 400px;
+  height: 500px;
+  /* z-index: -1; */
 }
