@@ -18,10 +18,23 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 220px;
-  margin-bottom: 30px;
-  font-size: 80px;
-  color: #5d5d5d;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  color: #D1122E;
+}
+
+form#login-form {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #989898;
 }
 
 /* form#login-form {
@@ -30,19 +43,19 @@ h2 {
   align-items: center;
 } */
 
-h1 {
+#todo-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #737373;
+  flex-direction: column;
+  margin-left: -34px;
 }
 
-ul#todo-list {
-  width: 150px;
-  margin-left: -90px;
+#todo-list p {
+  margin-bottom: 5px;
 }
 
-p span{
+p span {
   margin: 10px;
   left: 0px;
 }
@@ -58,7 +71,7 @@ p span{
 
 #wish {
   position: fixed;
-  top: 270px;
+  top: 230px;
   right: 100px;
   width: 800px;
   height: 500px;
@@ -67,9 +80,9 @@ p span{
 
 img {
   position: fixed;
-  top: 300px;
-  right: 500px;
-  width: 400px;
+  top: 260px;
+  right: 400px;
+  width: 500px;
   height: 500px;
   /* z-index: -1; */
 }

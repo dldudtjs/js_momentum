@@ -12,18 +12,15 @@ const quotes = [
     author: " [John D. Rockefeller]",
   },
   {
-    quote:
-      "Only I can change me life, no one can do it for me.",
+    quote:   "Only I can change me life, no one can do it for me.",
     author: " [Carol Burnett]",
   },
   {
-    quote:
-      "Life is unfair, get used to it.",
+    quote: "Life is unfair, get used to it.",
     author: " [Bill Gates]",
   },
   {
-    quote:
-      "Great minds have purposes, others have wishes.",
+    quote: "Great minds have purposes, others have wishes.",
     author: " [Washington]",
   },
   {
